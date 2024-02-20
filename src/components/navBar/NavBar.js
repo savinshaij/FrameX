@@ -12,7 +12,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className='fixed w-full z-50'>
+        <div className='lg:flex fixed hidden md:hidden  w-full z-50'>
 
             <nav className="relative    w-full">
                 <div className=" md:px-16 md:py-6 md:flex md:justify-between md:items-center">
@@ -23,27 +23,32 @@ const NavBar = () => {
                     </div>
 
 
-                    <div className="flex flex-col md:flex-row md:mx-6 font-semibold md:gap-6  ">
-                            <Link href="/" >
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary hover:border-b-2 border-primary dark:hover:text-primary md:mx-4 md:my-0">
+                    <div className="flex flex-col md:flex-row md:mx-6 font-semibold text-lg md:gap-14  sm:gap-2 ">
+                            <Link href="/"  className='group text-gray-600  transition-all duration-300 ease-in-out'>
+                                <span className='bg-left-bottom bg-gradient-to-r dark:hover:text-primary hover:text-primary   from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
                                     Home
                                 </span>
                             </Link>
-                            <Link href="/shop" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
-                                    Menu
+                            <Link href="/shop" className='group text-gray-600  transition-all duration-300 ease-in-out'>
+                                <span className='bg-left-bottom bg-gradient-to-r dark:hover:text-primary hover:text-primary  from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                                    Internship
                                 </span>
                             </Link>
                            
                            
-                            <Link href="/contact" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
-                                    Contact
+                            <Link href="/contact" className='group text-gray-600  transition-all duration-300 ease-in-out'>
+                                <span className='bg-left-bottom bg-gradient-to-r dark:hover:text-primary hover:text-primary   from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                                    Placements
                                 </span>
                             </Link>
-                            <Link href="/about" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
-                                    About
+                            <Link href="/about" className='group text-gray-600  transition-all duration-300 ease-in-out'>
+                                <span className='bg-left-bottom bg-gradient-to-r dark:hover:text-primary hover:text-primary  from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                                    Apply
+                                </span>
+                            </Link>
+                            <Link href="/about" className='group text-gray-600  transition-all duration-300 ease-in-out'>
+                                <span className='bg-left-bottom bg-gradient-to-r dark:hover:text-primary hover:text-primary   from-primary to-primary bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+                                    Employer
                                 </span>
                             </Link>
                         </div>
@@ -55,7 +60,7 @@ const NavBar = () => {
                             <div className='  flex gap-4'>
                                 <Link href={"/register"}>
         
-                                    <button className="  text-base transition-colors duration-300 transform rounded-xl  dark:text-gray-400 text-gray-200 bg-primary  dark:bg-space-cadet-dark font-normal py-2 px-8 dark:hover:bg-primary   hover:bg-[#8f57ff] active:scale-95">
+                                    <button className="  md:text-base sm:text-sm  transition-colors duration-300 transform rounded-xl  dark:text-white text-gray-200 bg-primary  dark:bg-primary font-medium py-2 px-8 dark:hover:bg-space-cadet-dark   hover:bg-[#8f57ff] active:scale-95">
                                         Get Started
                                     </button>
                                 </Link>

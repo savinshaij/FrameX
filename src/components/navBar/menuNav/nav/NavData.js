@@ -1,22 +1,22 @@
 export const links = [
     {
-        title: "Projects",
+        title: "Home",
         href: "/"
     },
     {
-        title: "Agency",
+        title: "Internship",
         href: "/"
     },
     {
-        title: "Expertise",
+        title: "Placement",
         href: "/"
     },
     {
-        title: "Careers",
+        title: "Apply",
         href: "/"
     },
     {
-        title: "Contact",
+        title: "Employer",
         href: "/"
     }
 ]

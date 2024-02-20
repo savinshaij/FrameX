@@ -20,7 +20,7 @@ export default function index() {
                                     animate="enter"
                                     exit="exit"
                                 >
-                                    <a>
+                                    <a className=' hover:bg-primary hover:text-white w-full rounded-xl px-3 py-2'>
                                         {title}
                                     </a>
                                 </motion.div>
