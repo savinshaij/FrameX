@@ -25,24 +25,24 @@ const NavBar = () => {
 
                     <div className="flex flex-col md:flex-row md:mx-6 font-semibold md:gap-6  ">
                             <Link href="/" >
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary hover:border-b-2 border-primary dark:hover:text-primary md:mx-4 md:my-0">
+                                <span className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-primary hover:border-b-2 border-primary dark:hover:text-primary md:mx-4 md:my-0">
                                     Home
                                 </span>
                             </Link>
                             <Link href="/shop" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
+                                <span className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
                                     Menu
                                 </span>
                             </Link>
                            
                            
                             <Link href="/contact" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
+                                <span className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
                                     Contact
                                 </span>
                             </Link>
                             <Link href="/about" passHref>
-                                <span className="my-2 text-gray-600 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
+                                <span className="my-2 text-gray-300 transition-colors duration-300 transform  hover:text-primary dark:hover:text-primary md:mx-4 md:my-0">
                                     About
                                 </span>
                             </Link>
